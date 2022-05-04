@@ -6,7 +6,9 @@ public class Main {
 
         var calculadora = new Calculadora(new LogaritmosApiClient());
 
-        calculadora.division(100.0, 3.0);
+        var resultado = calculadora.division(100.0, 3.0);
+
+        System.out.println("Resultado: " + resultado);
 
     }
 }
